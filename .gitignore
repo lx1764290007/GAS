@@ -3,3 +3,8 @@
 
 # Ada Library Information
 *.ali
+node_modules/
+dist/
+.git/
+build/
+package-lock.json

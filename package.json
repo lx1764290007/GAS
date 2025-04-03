@@ -1,0 +1,20 @@
+{
+  "name": "gas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "login": "clasp login",
+    "build": "node task.mjs",
+    "gas_push": "clasp push",
+    "gas_pull": "clasp pull"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@google/clasp": "3.0.3-alpha",
+    "@types/google-apps-script": "^1.0.97",
+    "typescript": "^5.8.2"
+  }
+}
